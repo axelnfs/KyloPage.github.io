@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #2d2d2d;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 0 20px;
+}
+
+.card-container {
+    display: flex;
+    width: 600px;
+    height: auto;
+    background: #d3ab31;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+}
+
+.header{
+    border-right: 1px solid #ddd;
+}
+
+.description{
+    background: #e7b51e;
+}
+
+.header .description {
+    padding: 20px;
+    text-align: center;
+}
+
+.header a{
+    position: relative;
+    display: block;
+}
+
+.header img{
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+    margin: 20px 30px;
+    transition: .02s;
+}
+
+.header  a:hover img{
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, .1);
+}
+
+.header h2{
+    color: #724400;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header h3{
+    color: #724400;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.header h4 {
+    margin-bottom: relative;
+    color: #cc7900;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.description {
+    position: relative;
+}
+
+.description p {
+    padding-top: 32px;
+    margin: 20px 30px;
+    color: #3d7981;
+}
+
+.description .social {
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 20px;
+}
+
+.description .social a{
+    display: inline-block;
+}
+
